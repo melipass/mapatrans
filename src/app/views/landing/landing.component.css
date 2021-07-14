@@ -1,0 +1,19 @@
+.content {
+    margin: 10%;
+    margin-top:100px;
+    margin-bottom:-200px;
+}
+
+.landing-text {
+    margin-left: 10%;
+}
+
+.landing-text-left {
+    margin-right: 10%;
+    text-align: right;
+    padding-left: 5%;
+}
+
+.perfil {
+    max-height: 400px;
+}

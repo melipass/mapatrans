@@ -1,0 +1,18 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+.navbar {
+    position: inherit;
+    background-color: #f3d7f4;
+    height: 80px;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.material-icons-outlined {
+    vertical-align: middle;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 2px;
+}

@@ -1,0 +1,48 @@
+footer{
+    margin-left: -5%;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23bdedfb' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23aae0f0' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23f3d7f4' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23f4c6f2' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23e2d2f6' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    padding-top: 250px;
+    /* background by SVGBackgrounds.com */
+}
+
+img {
+    width:200px;
+    float: right;
+    display: block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+
+.footer-text {
+    padding-right: 10%;
+    padding-left: 50px;
+    
+}
+
+h1 {
+    margin-top:20px;
+}
+
+@media (max-width: 768px) {
+    img{
+        float: none;
+        margin-left: 50px;
+    }
+
+    .footer-text{
+        margin: 5%;
+    }
+
+}
+
+a {
+    color: #1A535C;
+}
+
+.credits {
+    color: grey;
+}

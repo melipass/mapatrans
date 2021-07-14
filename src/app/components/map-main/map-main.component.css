@@ -1,0 +1,11 @@
+.map-container {
+    height: 700px;
+  }
+  
+  .map-frame {
+    height: 100%;
+  }
+  
+  #map {
+    height: 100%;
+  }
