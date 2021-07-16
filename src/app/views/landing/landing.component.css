@@ -17,3 +17,13 @@
 .perfil {
     max-height: 400px;
 }
+
+.btn-first {
+    border-color: #67dcff;
+    background-color: #bdedfb;
+}
+
+.btn-second {
+    border-color: #fbaefd;
+    background-color: #f3d7f4;
+}

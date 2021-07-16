@@ -30,7 +30,8 @@ export class MapMainComponent implements AfterViewInit {
     this.map = L.map('map', {
       center: [ -33.4489, -70.6693 ],
       zoom: 12,
-      attributionControl: false
+      attributionControl: false,
+      scrollWheelZoom: false
     });
 
     const tiles = L.tileLayer('https://api.maptiler.com/maps/voyager/256/{z}/{x}/{y}.png?key=pUANyYteIIcocNMew6oH', {
@@ -38,6 +39,11 @@ export class MapMainComponent implements AfterViewInit {
       minZoom: 3,
       attribution: '\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e'
     });
+
+    /*const gl = L.mapboxGL({
+      attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e \u003ca href=\"https://carto.com/\" target=\"_blank\"\u003e\u0026copy; CARTO\u003c/a\u003e",
+      style: 'https://api.maptiler.com/maps/3b7a159a-07b6-43ed-9229-ecc1d6512ec3/style.json?key=pUANyYteIIcocNMew6oH'
+    }).addTo(this.map);*/
 
     tiles.addTo(this.map);
   }
