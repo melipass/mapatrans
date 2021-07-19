@@ -1,5 +1,6 @@
 .map-container {
     height: 700px;
+    padding-top: 80px;
     border-bottom: 1px solid transparent;
     border-color: rgb(221, 221, 221);
   }
@@ -10,12 +11,4 @@
   
   #map {
     height: 100%;
-  }
-
-  .region-button {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      padding: 10px;
-      z-index: 400;
   }

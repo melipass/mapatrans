@@ -1,13 +1,15 @@
 @import 'material-icons/iconfont/material-icons.css';
 
 .navbar {
-    position: inherit;
+    position: fixed;
     background-color: #feeeff;
     height: 80px;
+    width: 100%;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, #e74aa8, #2188fd);
     border-image-slice: 1;
-    
+    box-shadow: rgba(0, 0, 0, 0.1) -1px 5px 11px 0px;
+    z-index: 2000;
 }
 
 .navbar-brand {
